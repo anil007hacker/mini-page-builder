@@ -1,0 +1,123 @@
+
+/* wip is elements */
+
+
+.wip{
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+    right: 0;
+    top: 10;
+    background-color: black;
+    border-right: 1px dotted;
+}
+
+.header{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    width: 100%;
+    
+}
+
+.task-header{
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: medium;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.droppable {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    top : 10;
+    background-color: #9e9e9e;
+    display: block;
+}
+
+.draggable{
+    width: 220px;
+    height: 50px;
+    margin: 9px 0 0 30px ;
+    margin-bottom: 10px;
+    font-size: large;
+    line-height: 3em;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+.dynamic-input:hover{
+    border: 1px solid red;
+  }
+  
+.dynamic-input{
+    height: 40px;
+    width: 400px;
+    /* outline: none; */
+    border: none;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+.dynamic-input:focus{
+    border: 1px solid red;
+    outline: none;
+  }
+
+.dynamic-button{
+    height: 40px;
+    width: 100px;
+    display: block;
+}
+
+.dynamic-button:hover{
+    border: 1px solid red;
+}
+
+.dynamic-button:active{
+    border: none;
+    border: 1px solid red;
+}
+
+.modal-input{
+  width: 100%;
+  padding: 2px 4px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+
+.modal-input:focus{
+    border: 2px solid #555;
+}
+
+.droppable-container{
+    background-color: #9e9e9e;
+    width: 80%;
+}
+
+.dynamic-label{
+    width: 150px;
+    height: 40px;
+    padding-top: 8px;
+    display: block;
+    margin: 20 0 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dynamic-label:hover{
+    border: 1px solid red;
+}
