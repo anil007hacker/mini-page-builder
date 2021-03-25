@@ -116,7 +116,6 @@ export class Nav extends Component {
               this.removeButtonLocal();
             }
             if (key === "Enter") {
-              // var element = document.getElementsByClassName("dynamic-button")[0];
               this.setState({
                 isButtonModalVisible : true
               })
@@ -277,18 +276,6 @@ export class Nav extends Component {
     localStorage.setItem('button_state_y', JSON.stringify(nextState.y_position_button))
     localStorage.setItem('text_button', JSON.stringify(nextState.text_button))
   }
-  
-      // x_position_input : 0,
-      //  y_position_input : 0,
-      //  text_input : '',
-      //  isModalVisible : false,
-      //  font_size_input : '',
-      // x_position_button : 0,
-      //  y_position_button : 0,
-      //  text_button : 'Submit',
-      //  font_weight_input : "",
-      //  labelText : "Hello",
-
       changeButtonPlace = () => {
         console.log("Inside Change Button Place")
         var x_pos = this.state.x_position_button
